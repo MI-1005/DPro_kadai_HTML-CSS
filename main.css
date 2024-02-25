@@ -1,0 +1,255 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+}
+.section_inner {
+  padding: 50px 10% 30px;
+}
+
+/* headerのタイトルと位置 */
+.key {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+}
+.key h1{
+  font-size: 2.5rem;
+}
+
+/* 各セクションのタイトル文字 */
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section_contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.concept_contents{
+  justify-content: left;
+  width: 60%;
+}
+.concept_image{
+  justify-content: right;
+  width: 35%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+/* Reccomended menu */
+
+.center {
+  text-align: center;
+}
+
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* menuの背景 */
+.menu_content{
+  background: url(../images/sample_menu_bg.jpg) no-repeat bottom;
+  background-size: 100%;
+  background-attachment: fixed
+}
+
+.menu_list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu_list_recommended{
+  padding-bottom: 50px;
+}
+
+.menu_item{
+  display: flex;
+  flex-direction: row-reverse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 49%;
+  margin-bottom: 20px;
+}
+
+/* Reccomended menuのbox */
+.menue_item_box {
+  background-color: white;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding: 10px;
+}
+
+/* Reccomended menuの文章 */
+.menu_item_title{
+  font-size: 18px;
+}
+.menue_item_price{
+  font-size: 15px;
+  text-align: right;
+}
+
+/* Reccomended menuの写真 */
+.menu_photo{
+  width: 55%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Coffee menu*/
+/* 背景*/
+.coffee_menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.coffee_list{
+  background: #fff;
+    padding: 20px;
+}
+
+/* メニュー*/
+.coffee_list_item{
+  width: 49%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 10px;
+}
+
+.coffee_list_content{
+  width: 80%;
+  padding: 10px;
+}
+/* 文字*/
+.list_item{
+  font-size: 18px;
+}
+
+/* アイコン*/
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+.access_text{
+  display: flex;
+}
+
+.section_inner .access_text{
+  display: flex;
+  flex-direction: row;  
+}
+
+
+.access_text dt {
+  display: inline-flex;
+  width: 80px;
+}
+
+iframe{
+  width: 100%;
+}
+
+footer{
+  background: #251e19;
+  color: white;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+
+nav ul li img {
+  height: 50px;
+}
+
+.main-footer p {
+  font-size: 10px;
+}
